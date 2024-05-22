@@ -1,13 +1,13 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2761
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red94\green176\blue32;\red254\green213\blue10;\red253\green170\blue9;
-\red201\green199\blue8;\red209\green105\blue6;\red255\green255\blue11;}
+\red201\green199\blue8;\red209\green105\blue6;\red255\green255\blue11;\red201\green199\blue8;}
 {\*\expandedcolortbl;;\cssrgb\c43067\c72927\c16222;\cssrgb\c100000\c85717\c0;\cssrgb\c100000\c71834\c0;
-\cssrgb\c82582\c80870\c0;\cssrgb\c86161\c49166\c0;\cssrgb\c100000\c100000\c0;}
+\cssrgb\c82582\c80870\c0;\cssrgb\c86161\c49166\c0;\cssrgb\c100000\c100000\c0;\cssrgb\c82582\c80870\c0;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww15800\viewh13820\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\b\fs28 \cf2        \cf3   #fase iniziale\cf2 \
+\f0\b\fs28 \cf2 Git commi       \cf3   #fase iniziale\cf2 \
 Git config - - Global user .email \'93your_email@xample.com \'97>per setter la mail\
 Git cingi - - Global user.name \'93your name\'94 \'97> per setter il name dell\'92utente git\
 Git config - - Global - - list \'97> stampa una lista di variabili global di git\
@@ -31,17 +31,21 @@ Git add . \'97> Traccia tutti i file\
 \
 Git comment -m \'91messaggio\'92 \'97> Per salvare tutti i file nella repository locale \
 \
-    #collego una repository locale remota\
+   \cf8  #collego una repository locale remota\cf2 \
 Git branch -m main\
 Git remote add origin https://\
 Git push -u origin main\
 \
 \
-        #passaggi git\
+     \cf8    #passaggi git\cf2 \
 Git add .\
 Git commi -m \'91messaggio\'92\
 Git push\
+    \
 \
+           #commenti\
+**Git push \'97>carico le modifiche repository remota\
+**Git  pull  \'97>scarico le modifiche dalla repository remota\
 \
 \
 \
